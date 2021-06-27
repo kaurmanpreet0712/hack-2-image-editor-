@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Editor</title>
+    <link href="style.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Image Editor</h1>
+   <div class="editor">
+       <div class="tools">
+           <button id="save">Save</button>
+           <button id="reset">Reset</button>
+           <input type="file" id="load"/>
+           <h2>Effects</h2>
+           <p>
+               <label for="brightness" >Brightness</label><br>
+               <input id="brightness" name="brightness" type="range" min=-100 max=100 value=0/>
+           </p>
+           
+        <p>
+            <label for="vibrance">Vibrance</label><br>
+            <input id="vibrance" name="vibrance" type="range" min=-100 max=100 value=0/>
+        </p>
+        <p>
+            <label for="hue">Hue</label><br>
+            <input id="hue" name="hue" type="range" min=-100 max=100 value=0/>
+        </p>
+        <p>
+            <label for="gamma">Gamma</label><br>
+            <input id="gamma" name="gamma" type="range" min=0 max=10 value=0/>
+        </p>
+        <h2>Filters</h2> <br>
+       <button id="vintage" class="filter">Vintage</button>
+      
+       <button id="clarity" class="filter">Clarity</button>
+       
+       <button id="lomo" class="filter">Lomo</button>
+     
+       <button id="orangePeel" class="filter">Orange Peel</button>
+    </div>
+   
+
+       </div>
+       
+       <div class="imageAdder">
+        <img id="image" class="img" src="scenery.jpg">
+       
+   </div>
+
+  
+   
+   
+</body>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/camanjs/4.1.2/caman.full.min.js"></script>
+<script src="script.js"></script>
+</html>

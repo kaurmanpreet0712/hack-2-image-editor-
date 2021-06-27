@@ -1,0 +1,58 @@
+body{
+ background: #424242;;
+ color: white;
+ text-align: center;
+  background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(92, 87, 87));
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    margin: 10px;
+}
+
+p{
+    font-size: 20px;
+    justify-content: space-between;
+
+}
+
+.editor{
+    width: 95%;
+    height: auto;
+
+}
+
+.tools{
+    float: left;
+    width: 30%;
+    text-align: left;
+}
+
+.img{
+    width: 65%;
+    padding-left: 10px;
+    height: auto;
+}
+
+button{
+    color: white;
+    background: rgb(228, 114, 228);
+    border-radius: 10%;
+    border: 1px solid white;
+    padding: 5px;
+    font-size: 20px;
+}
+
+button:hover{
+    transform: scale(1.2);
+}
+
+input{
+    width: 225px;
+}
+
+.filter{
+    justify-content: space-around;
+}
+
